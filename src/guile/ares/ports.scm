@@ -18,6 +18,7 @@
 ;;; along with guile-ares-rs.  If not, see <http://www.gnu.org/licenses/>.
 
 (define-module (ares ports)
+  #:use-module (rnrs io ports)
   #:export (read-all-chars-as-string
             make-pipes
             unbuffer-pipes!
