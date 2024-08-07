@@ -37,6 +37,7 @@
   #:use-module (srfi srfi-197)
   #:use-module (srfi srfi-2)
   #:use-module (srfi srfi-9)
+  #:use-module ((rnrs) :version (6)))
   #:use-module ((system base compile) #:select (read-and-compile))
   #:use-module ((system repl debug) #:prefix repl-debug:)
   #:use-module ((system vm loader) #:select (load-thunk-from-memory))
